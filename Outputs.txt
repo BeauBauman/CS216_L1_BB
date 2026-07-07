@@ -344,3 +344,60 @@ Output file:
 Mean: 4080
 Sum: 24483
 Median: 289
+
+Run 12 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+Sorted array: 
+456
+123
+65
+55
+Statistic           Value
+Sum                   699
+Median              94.00
+Mean               174.75
+
+
+Run 13 -
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+123
+456
+65
+55
+Statistic           Value
+Sum                699.00
+Median              94.00
+Mean               174.75
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+Sorted array: 
+456
+123
+65
+55
+Statistic           Value
+Sum                699.00
+Median              94.00
+Mean               174.75
+
