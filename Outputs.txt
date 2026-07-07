@@ -83,3 +83,264 @@ Please select an option:
 2 - Print sorted values in descending order.
 3 - Save data and stats to output file.
 
+Run 4 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+1
+This will: Print stored values alongside mean, sum, and median
+5 25
+253
+352
+23523 325
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+2
+This will: Print sorted values in descending order.
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+3
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+4
+Invalid input
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+
+Run 5 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+5 25
+253
+352
+23523 325
+Sum of values: 24133
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+
+Run 6 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+5
+25
+253
+352
+23523
+325
+Sum of values: 24483
+Mean of values: 4080
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+2
+5
+25
+253
+325
+352
+23523
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file.
+
+Run 7 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+5
+25
+253
+352
+23523
+325
+Sum of values: 24483
+Mean of values: 4080
+Median of values: 289
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+2
+23523
+352
+325
+253
+25
+5
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+23523
+352
+325
+2Mean: 4080
+Sum: 24483
+Median: 289
+
+Run 8 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Run 9 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+5
+25
+253
+352
+23523
+325
+Sum of values: 24483
+Mean of values: 4080
+Median of values: 289
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+2
+23523
+352
+325
+253
+25
+5
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+23523
+352
+325
+2
+Mean: 4080
+Sum: 24483
+Median: 289
+
+Run 10 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+hello
+Invalid input
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+1
+This will: Print stored values alongside mean, sum, and median
+Stored values:
+123
+456
+65
+55
+Sum of values: 699
+Mean of values: 174.75
+Median of values: 94
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+2
+456
+123
+65
+55
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+Sorted array: 
+456
+123
+65
+55
+
+Mean: 174.75
+Sum: 699
+Median: 94
+
+Run 11 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+Sorted array: 
+456
+123
+65
+55
+Statistic           Value
+Sum                   699
+Median                 94
+Mean               174.75
+
+
+Output file:
+23523
+352
+325
+2
+Mean: 4080
+Sum: 24483
+Median: 289
