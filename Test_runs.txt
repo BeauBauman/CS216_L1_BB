@@ -401,3 +401,72 @@ Sum                699.00
 Median              94.00
 Mean               174.75
 
+Run 14 - 
+
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+1
+Stored values:
+Category                     Values
+Divisible by 5      
+                                 35
+                                345
+Divisible by 7      
+                                532
+Neither             
+                               3324
+                                 23
+                                 67
+                                 23
+                                 67
+                                212
+
+Category                        Sum           Mean         Median
+Divisible by 5                  380            190            190
+Divisible by 7                  532            532            532
+Neither                        3716            619             67
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+2
+Fives: 
+345
+35
+Sevens: 
+532
+Neither: 
+3324
+212
+67
+67
+23
+23
+Please select an option:
+1 - Print stored values alongside mean, sum, and median.
+2 - Print sorted values in descending order.
+3 - Save data and stats to output file, then quit.
+3
+
+Output file:
+
+Category                     Values
+Divisible by 5      
+                                345
+                                 35
+Divisible by 7      
+                                532
+Neither             
+                               3324
+                                212
+                                 67
+                                 67
+                                 23
+                                 23
+
+Category                        Sum           Mean         Median
+Divisible by 5                  380            190            190
+Divisible by 7                  532            532            532
+Neither                        3716            619             67
