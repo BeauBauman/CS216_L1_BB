@@ -150,20 +150,24 @@ void output_stats(ostream &output, int arr[], int fives[], int sevens[],
     int sum_sevens = static_cast<double>(get_array_sum(sevens, count_sevens));
     int sum_neither = static_cast<double>(get_array_sum(neither, count_neither));
     
+    int mean_fives = 0;
+    int mean_sevens = 0;
+    int mean_neither = 0;
+    
     if (count_fives < 1) {
         mean_fives = 0;
     } else {
-       int mean_fives = (static_cast<double>(get_array_sum(fives, count_fives)) / count_fives); 
+        mean_fives = (static_cast<double>(get_array_sum(fives, count_fives)) / count_fives); 
     }
     if (count_sevens < 1) {
         mean_sevens = 0;
     } else {
-        int mean_sevens = (static_cast<double>(get_array_sum(sevens, count_sevens)) / count_sevens);
+        mean_sevens = (static_cast<double>(get_array_sum(sevens, count_sevens)) / count_sevens);
     }
     if (count_neither < 1) {
         mean_neither = 0;
     } else {
-        int mean_neither = (static_cast<double>(get_array_sum(neither, count_neither)) / count_neither);
+        mean_neither = (static_cast<double>(get_array_sum(neither, count_neither)) / count_neither);
     }
     
     int median_fives = get_median(fives, count_fives);
@@ -172,25 +176,25 @@ void output_stats(ostream &output, int arr[], int fives[], int sevens[],
     
     output << endl;
     
-    output << left << setw(20) << "Category"
+    output << fixed << setprecision(2) << left << setw(20) << "Category"
          << right << setw(15) << "Sum"
          << right << setw(15) << "Mean"
          << right << setw(15) << "Median"
          << endl;
     
-    output << left << setw(20) << "Divisible by 5"
+    output << fixed << setprecision(2) << left << setw(20) << "Divisible by 5"
          << right << setw(15) << sum_fives
          << right << setw(15) << mean_fives
          << right << setw(15) << median_fives
          << endl;
     
-    output << left << setw(20) << "Divisible by 7"
+    output << fixed << setprecision(2) << left << setw(20) << "Divisible by 7"
          << right << setw(15) << sum_sevens
          << right << setw(15) << mean_sevens
          << right << setw(15) << median_sevens
          << endl;
     
-    output << left << setw(20) << "Neither"
+    output << fixed << setprecision(2) << left << setw(20) << "Neither"
          << right << setw(15) << sum_neither
          << right << setw(15) << mean_neither
          << right << setw(15) << median_neither
@@ -233,11 +237,11 @@ void separate_by_divisor(int arr[], int fives[], int sevens[],
             fives[count_fives] = arr[i];
             count_fives++;
         }
-        else if (arr[i] % 7 == 0) {
+        if (arr[i] % 7 == 0) {
             sevens[count_sevens] = arr[i];
             count_sevens++;
         }
-        else {
+        if (arr[i] % 5 != 0 && arr[i] % 7 != 0) {
             neither[count_neither] = arr[i];
             count_neither++;
         }
@@ -320,51 +324,24 @@ int main()
 
     return 0;
 }
-
 // Sample output
-/*Please select an option:
-1 - Print stored values alongside mean, sum, and median.
-2 - Print sorted values in descending order.
-3 - Save data and stats to output file, then quit.
-1
-Stored values:
-Category                     Values
+/* Category                     Values
 Divisible by 5      
-                                 35
                                 345
+                                 35
 Divisible by 7      
                                 532
+                                 35
 Neither             
                                3324
-                                 23
-                                 67
-                                 23
-                                 67
                                 212
+                                 67
+                                 67
+                                 23
+                                 23
 
 Category                        Sum           Mean         Median
 Divisible by 5                  380            190            190
-Divisible by 7                  532            532            532
+Divisible by 7                  567            283            283
 Neither                        3716            619             67
-Please select an option:
-1 - Print stored values alongside mean, sum, and median.
-2 - Print sorted values in descending order.
-3 - Save data and stats to output file, then quit.
-2
-Fives: 
-345
-35
-Sevens: 
-532
-Neither: 
-3324
-212
-67
-67
-23
-23
-Please select an option:
-1 - Print stored values alongside mean, sum, and median.
-2 - Print sorted values in descending order.
-3 - Save data and stats to output file, then quit.
-3 */
+ */
