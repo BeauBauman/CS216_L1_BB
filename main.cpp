@@ -1,11 +1,3 @@
-/******************************************************************************
-
-Welcome to GDB Online.
-  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
-  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
-  Code, Compile, Run and Debug online from anywhere in world.
-
-*******************************************************************************/
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -158,18 +150,20 @@ void output_stats(ostream &output, int arr[], int fives[], int sevens[],
     int sum_sevens = static_cast<double>(get_array_sum(sevens, count_sevens));
     int sum_neither = static_cast<double>(get_array_sum(neither, count_neither));
     
-    int mean_fives = (static_cast<double>(get_array_sum(fives, count_fives)) / count_fives);
-    int mean_sevens = (static_cast<double>(get_array_sum(sevens, count_sevens)) / count_sevens);
-    int mean_neither = (static_cast<double>(get_array_sum(neither, count_neither)) / count_neither);
-    
     if (count_fives < 1) {
         mean_fives = 0;
+    } else {
+       int mean_fives = (static_cast<double>(get_array_sum(fives, count_fives)) / count_fives); 
     }
     if (count_sevens < 1) {
         mean_sevens = 0;
+    } else {
+        int mean_sevens = (static_cast<double>(get_array_sum(sevens, count_sevens)) / count_sevens);
     }
     if (count_neither < 1) {
         mean_neither = 0;
+    } else {
+        int mean_neither = (static_cast<double>(get_array_sum(neither, count_neither)) / count_neither);
     }
     
     int median_fives = get_median(fives, count_fives);
@@ -326,6 +320,7 @@ int main()
 
     return 0;
 }
+
 // Sample output
 /*Please select an option:
 1 - Print stored values alongside mean, sum, and median.
